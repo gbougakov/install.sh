@@ -1,0 +1,36 @@
+{
+  "name": "install.sh",
+  "version": "2.0.0",
+  "description": "Universal install script",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbougakov/install.sh.git"
+  },
+  "author": "George Bougakov <npm@bygeorgenet.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gbougakov/install.sh/issues"
+  },
+  "homepage": "https://github.com/gbougakov/install.sh#readme",
+  "dependencies": {
+    "execa": "^1.0.0",
+    "got": "^9.6.0",
+    "inquirer": "^6.2.2",
+    "meow": "^5.0.0",
+    "ora": "^3.2.0"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2
+  },
+  "devDependencies": {
+    "xo": "^0.24.0"
+  },
+  "bin": {
+    "install.sh": "./index.js"
+  }
+}
