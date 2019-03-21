@@ -1,5 +1,6 @@
 # `install.sh`
 The universal install script
+
 ![](https://imgs.xkcd.com/comics/universal_install_script.png)
 
 This comic by XKCD is fun, but the pictured script has some flaws.
